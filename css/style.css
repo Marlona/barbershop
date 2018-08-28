@@ -8548,16 +8548,16 @@ body:not(.device-touch) .on-hover.i-overlay {
 	line-height: 30px !important;
 }
 
-.social-icon i {
+/* .social-icon i {
 	display: block;
 	position: relative;
-}
+} */
 
-body:not(.device-touch) .social-icon i {
+/* body:not(.device-touch) .social-icon i {
 	-webkit-transition: all .3s ease;
 	-o-transition: all .3s ease;
 	transition: all .3s ease;
-}
+} */
 
 .social-icon i:last-child { color: #FFF !important; }
 

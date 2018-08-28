@@ -16,7 +16,8 @@
 	<link rel="stylesheet" href="barber.css" type="text/css" />
 	<link rel="stylesheet" href="css/fonts.css" type="text/css" />
 	<!-- / -->
-
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
@@ -34,7 +35,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>Barber | Canvas</title>
+	<title>Black Fox | Barbershop</title>
 
 	<style>
 		/* Page Loading Style */
@@ -57,13 +58,13 @@
 
 				<div class="container norightpadding clearfix">
 
-					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+					<div id="primary-menu-trigger"><i class="fas fa-bars"></i></div>
 
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index.html" class="standard-logo"><img src="images/sticky-logo.png" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo"><img src="images/sticky-logo@2x.png" alt="Canvas Logo"></a>
+						<a href="#" class="standard-logo"><img src="images/sticky-logo.png" alt="Canvas Logo"></a>
+						<a href="#" class="retina-logo"><img src="images/sticky-logo@2x.png" alt="Canvas Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -73,11 +74,11 @@
 						<ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1300" data-offset="60">
 							<li class="active"><a href="#" data-href="#wrapper">Home</a></li>
 							<li><a href="#" data-offset="56" data-href="#service">Service</a></li>
-							<li><a href="#" data-href="#price">Price</a></li>
+                            <li><a href="#" data-href="#price">Price</a></li>
+                            <li><a href="#" data-href="#testimonial">Testimonial</a></li>
 							<li><a href="#" data-href="#barbers">Barbers</a></li>
-							<li><a href="#" data-href="#testimonial">Testimonial</a></li>
 							<li><a href="#" data-href="#contact">Contact</a></li>
-							<li><a href="#" data-scrollto="#barbers" data-offset="62" data-easing="easeInOutExpo" data-speed="1300" class="button button-color reverse clearfix"><i class="icon-calendar2"></i> Appoinment</a></li>
+							<li><a href="#" data-scrollto="#barbers" data-offset="62" data-easing="easeInOutExpo" data-speed="1300" class="button button-color reverse clearfix"><i class="fa fa-calendar"></i> Appoinment</a></li>
 						</ul>
 
 					</nav><!-- #primary-menu end -->
@@ -94,7 +95,7 @@
 
 			<div class="slider-parallax-inner" style="background: url('images/hero/hero.jpg') center center no-repeat; background-size: cover;">
 				<div class="vertical-middle center" style="z-index: 2;">
-					<img src="images/slider-logo.svg" alt="Logo" height="180">
+					<img src="images/slider-logo1.svg" alt="Logo" height="180">
 
 					<!-- Slider Navigation
 					============================================= -->
@@ -112,25 +113,26 @@
 
 				<!-- Slider Appointment Button
 				============================================= -->
-                <a href="#" class="button button-large button-color button-appointment d-none d-lg-block" data-scrollto="#barbers" data-offset="62" data-easing="easeInOutExpo" data-speed="1300"><i class="icon-calendar2"></i> Make An Appointment</a>
+                <a href="#" class="button button-large button-color button-appointment d-none d-lg-block" data-scrollto="#barbers" data-offset="62" data-easing="easeInOutExpo" data-speed="1300"><i class="fa fa-calendar"></i> Make An Appointment</a>
 				<!-- Slider Social Icons
 				============================================= -->
 				<div class="slider-social d-none d-lg-block clearfix">
-					<a href="https://www.facebook.com/theblackfoxbarbershop" target="_blank" class="social-icon si-small si-borderless si-facebook">
-						<i class="icon-facebook"></i>
-						<i class="icon-facebook"></i>
+					<a href="https://www.facebook.com/theblackfoxbarbershop" target="_blank" class="social-icon si-medium si-borderless si-facebook">
+                        <!-- Also tried <i class="fa fa-facebook"></i> Niether is working -->
+                        <i class="fab fa-facebook"></i>
+						<!-- <i class="fab fa-facebook"></i> -->
 					</a>
 					<!-- <a href="http://twitter.com/__semicolon" target="_blank" class="social-icon si-small si-borderless si-twitter">
 						<i class="icon-twitter"></i>
 						<i class="icon-twitter"></i>
 					</a> -->
-					<a href="https://www.instagram.com/theblackfoxbarbershop" target="_blank" class="social-icon si-small si-borderless si-instagram">
-						<i class="icon-instagram"></i>
-						<i class="icon-instagram"></i>
+					<a href="https://www.instagram.com/theblackfoxbarbershop" target="_blank" class="social-icon si-medium si-borderless si-instagram">
+						<i class="fab fa-instagram"></i>
+						<!-- <i class="icon-instagram"></i> -->
 					</a>
-					<a href="mailto:THEBLACKFOXBARBERSHOP@OUTLOOK.com?Subject=Barber%20applicant" target="_blank" class="social-icon si-small si-borderless si-email3">
-						<i class="icon-email3"></i>
-						<i class="icon-email3"></i>
+					<a href="mailto:THEBLACKFOXBARBERSHOP@OUTLOOK.com?Subject=Hello%20again" target="_blank" class="social-icon si-medium si-borderless si-email3">
+						<i class="far fa-envelope"></i>
+						<!-- <i class="icon-email3"></i> -->
 					</a>
 				</div>
 
@@ -317,7 +319,7 @@
                                     </div>
                                     <div class="price-price">$50</div>
                                 </div>
-                                <p class="price-desc">Black Fox Carbon Mask *Consultation & Haircut *Hot Shave Treatment(Beard Consultation, Straight Blade Detail on eyebrows, beard, & edges) *Post Wash *Blow Dry & Custom Style *Shoe Shine & Cleaning</p>
+                                <p class="price-desc">Our premium package starts off with a client consultation. Next we apply the cooling Black Carbon Mask with charcoal from the Dead Sea. This mask helps exfoliate and clean pores as well as extracting whiteheads and dirt. While the mask is drying the barber will provide a custom haircut to your liking. After the haircut the barber will remove the carbon mask which leaves your face smooth and clean. Next up is our acclaimed Hot Shave described in the Silver Fox Package. We follow up the Hot Shave with a shampoo & conditioning wash and custom blow dry/styling.</p>
                             </div>
     
                             <div class="col-lg-6 price-wrap">
@@ -330,7 +332,7 @@
                                     </div>
                                     <div class="price-price">$40</div>
                                 </div>
-                                <p class="price-desc">Consultation & Haircut *Hot Shave Treatment(Beard Consultation, Straight Blade Detail on eyebrows, beard, & edges) *Post Wash *Blow Dry & Custom Style</p>
+                                <p class="price-desc">Our mid tier package starts with a client consultation and custom haircut to your liking. We follow that up with our acclaimed hot shave experience which includes; home made beard oils, hot towels, face massage, an essential oil steam shave with hot lather /gel using a straight razor, and followed up with aftershave and a cold towel. The barber will groom your beard to your liking as well as groom other features such as your eyebrows upon request. We follow this up with a shampoo & conditioning wash and end with the barber showing you how to style your look.</p>
                             </div>
     
                             <div class="w-100 clear"></div>
@@ -345,7 +347,7 @@
                                     </div>
                                     <div class="price-price">$30</div>
                                 </div>
-                                <p class="price-desc">Consultation & Haircut *Blow Dry & Custom Style *Post Wash</p>
+                                <p class="price-desc">Our base package includes a consultation with the client followed by a custom cut to your liking. We follow this up with a shampoo and conditioning treatment. Finally we will blow dry and style your hair and show you the styling techniques as well as answering any questions you might have.</p>
                             </div>
     
                             <div class="col-lg-6 price-wrap">
@@ -356,9 +358,9 @@
                                     <div class="price-dots">
                                         <span class="separator-dots"></span>
                                     </div>
-                                    <div class="price-price">$30</div>
+                                    <div class="price-price">$20</div>
                                 </div>
-                                <p class="price-desc">Consultation & Haircut *Blow Dry & Custom Style</p>
+                                <p class="price-desc">This package comes with a lollipop and juice box! Starting off with a consultation with mom or dad the barber will provide a custom haircut. After the haircut the barber will style the child’s hair.</p>
                             </div>
     
                             <div class="w-100 clear"></div>
@@ -373,20 +375,20 @@
                                     </div>
                                     <div class="price-price">$20</div>
                                 </div>
-                                <p class="price-desc">Could take a varied amount of time depending on detail and difficulty! Consultation is necessary! Call the shop with any questions 239-641-0555</p>
+                                <p class="price-desc">Let our talented artists create a unique design for your head. The barber will provide a custom design to your liking. Must consult with barber individually for pricing and details. Call the shop and we can discuss the details and help you set up a time to come in!</p>
                             </div>
     
                             <div class="col-lg-6 price-wrap">
                                 <div class="price-header">
                                     <div class="price-name">
-                                        <a href="#" class="color">Beard Trim</a>
+                                        <a href="#" class="color">Hot Shave</a>
                                     </div>
                                     <div class="price-dots">
                                         <span class="separator-dots"></span>
                                     </div>
-                                    <div class="price-price">$42</div>
+                                    <div class="price-price">$20</div>
                                 </div>
-                                <p class="price-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+                                <p class="price-desc">The barber will start by applying a homemade Beard Oil to your face and beard. Next he will start the essential oil steamer and apply a hot towel to your face. After this, the barber will provide a face massage. After your face massage the barber will either apply hot lather or gel depending on exactly what is being done to the beard. Using a straight razor the barber will provide an attention to detail shave/touch up. After the shave is complete the barber will apply aftershave and a cold towel to seal up your pores.</p>
                             </div>
     
                             <div class="w-100 clear"></div>
@@ -394,31 +396,31 @@
                             <div class="col-lg-6 price-wrap">
                                 <div class="price-header">
                                     <div class="price-name">
-                                        <a href="#" class="color">Facial</a>
+                                        <a href="#" class="color">Line Up</a>
                                     </div>
                                     <div class="price-dots">
                                         <span class="separator-dots"></span>
                                     </div>
-                                    <div class="price-price">$29</div>
+                                    <div class="price-price">$10</div>
                                 </div>
-                                <p class="price-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+                                <p class="price-desc">Our edge line up is a quick 15 minute in between haircut procedure. The barber will clean up your lines, edges, and neckline. Wether you have a date planned or a special event on short notice we are here to accommodate you.</p>
                             </div>
     
                             <div class="col-lg-6 price-wrap">
                                 <div class="price-header">
                                     <div class="price-name">
-                                        <a href="#" class="color">Head Massage</a>
+                                        <a href="#" class="color">Black Fox Carbon Mask</a>
                                     </div>
                                     <div class="price-dots">
                                         <span class="separator-dots"></span>
                                     </div>
-                                    <div class="price-price">$17</div>
+                                    <div class="price-price">$10</div>
                                 </div>
-                                <p class="price-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+                                <p class="price-desc">Our Dead Sea Charcoal Mask cools and soothes your skin while cleaning and exfoliating your pores. The mask will remove dirt and whiteheads and leave your skin feeling smooth!</p>
                             </div>
     
                             <div class="col-12 center">
-                                <a href="#barbers" class="button button-large button-color d-none d-lg-block "><i class="icon-calendar2"></i> Make An Appointment</a>
+                                <a href="#barbers" class="button button-large button-color d-none d-lg-block "><i class="fa fa-calendar"></i> Make An Appointment</a>
                             </div>
                         </div>
     
@@ -586,7 +588,7 @@
 						<div class="heading-block center">
 							<img src="images/icons/team.svg" alt="" height="50" style="margin-bottom: 20px">
 							<h3 class="ls2">Our Barbers</h3>
-							<span>We run a men’s barbershop in its best traditions. Our guys will help you look stylish and confident, and most importantly, manly</span>
+							<span>We run a men’s barbershop in its best traditions. Our guys will help you look stylish and confident, and most importantly, manly.</span>
 						</div>
 
 						<div class="row">
@@ -598,9 +600,9 @@
                                             <img src="images/barbers/1.png" alt="Orlando Reynolds">
                                             <div class="team-overlay">
                                                 <div class="team-social-icons">
-                                                    <a href="https://www.instagram.com/_fadezbyorlando" class="social-icon si-rounded si-colored si-small si-instagram" title="instagram">
-                                                        <i class="icon-instagram"></i>
-                                                        <i class="icon-instagram"></i>
+                                                    <a href="https://www.instagram.com/_fadezbyorlando" class="social-icon si-rounded si-colored si-medium si-instagram" title="instagram">
+                                                        <i class="fab fa-instagram"></i>
+                                                        <!-- <i class="fas fa-instagram"></i> -->
                                                     </a>
                                                     <!-- <a href="#" class="social-icon si-rounded si-colored si-small si-twitter" title="Twitter">
                                                         <i class="icon-twitter"></i>
@@ -636,9 +638,9 @@
 													<i class="icon-gplus"></i>
 													<i class="icon-gplus"></i>
 												</a> -->
-												<a href="https://www.instagram.com/kennydabarber" class="social-icon si-rounded si-colored si-small si-instagram" title="instagram">
-													<i class="icon-instagram"></i>
-													<i class="icon-instagram"></i>
+												<a href="https://www.instagram.com/kennydabarber" class="social-icon si-rounded si-colored si-medium si-instagram" title="instagram">
+													<i class="fab fa-instagram"></i>
+                                                    <!-- <i class="fas fa-instagram"></i> -->
 												</a>
 											</div>
 											<a href="https://www.styleseat.com/m/v/kennywinarski" class="button button-large button-color nothidden">Appointment</a>
@@ -666,9 +668,9 @@
 													<i class="icon-twitter"></i>
 													<i class="icon-twitter"></i>
 												</a> -->
-												<a href="https://www.instagram.com/crisatthefox" class="social-icon si-rounded si-colored si-small si-instagram" title="instagram">
-                                                        <i class="icon-instagram"></i>
-                                                        <i class="icon-instagram"></i>
+												<a href="https://www.instagram.com/crisatthefox" class="social-icon si-rounded si-colored si-medium si-instagram" title="instagram">
+                                                    <i class="fab fa-instagram"></i>
+                                                    <!-- <i class="fas fa-instagram"></i> -->
                                                 </a>
 											</div>
 											<a href="https://www.styleseat.com/m/v/crishernandez" class="button button-large button-color nothidden">Appointment</a>
@@ -695,9 +697,9 @@
                                                         <i class="icon-gplus"></i>
                                                         <i class="icon-gplus"></i>
                                                     </a> -->
-                                                    <a href="https://www.instagram.com/jbraidsandbows" class="social-icon si-rounded si-colored si-small si-instagram" title="instagram">
-                                                        <i class="icon-instagram"></i>
-                                                        <i class="icon-instagram"></i>
+                                                    <a href="https://www.instagram.com/jbraidsandbows" class="social-icon si-rounded si-colored si-medium si-instagram" title="instagram">
+                                                        <i class="fab fa-instagram"></i>
+                                                        <!-- <i class="fas fa-instagram"></i> -->
                                                     </a>
                                                 </div>
                                                 <a href="https://www.styleseat.com/jordanpomeroy" class="button button-large button-color nothidden">Appointment</a>
@@ -725,9 +727,9 @@
                                                         <i class="icon-twitter"></i>
                                                         <i class="icon-twitter"></i>
                                                     </a> -->
-                                                    <a href="https://www.instagram.com/makeup_by_nikijane" class="social-icon si-rounded si-colored si-small si-instagram" title="instagram">
-                                                            <i class="icon-instagram"></i>
-                                                            <i class="icon-instagram"></i>
+                                                    <a href="https://www.instagram.com/makeup_by_nikijane" class="social-icon si-rounded si-colored si-medium si-instagram" title="instagram">
+                                                        <i class="fab fa-instagram"></i>
+                                                        <!-- <i class="fas fa-instagram"></i> -->
                                                     </a>
                                                 </div>
                                                 <a href="https://www.styleseat.com/nikifernandez" class="button button-large button-color nothidden">Appointment</a>
@@ -744,7 +746,7 @@
 							<div class="col-md-4 bottommargin">
                                     <div class="team">
                                         <div class="team-image">
-                                            <img src="images/barbers/6.png" alt="You">
+                                            <img src="images/barbers/4.png" alt="Lauren Pullins">
                                             <div class="team-overlay">
                                                 <div class="team-social-icons">
                                                     <!-- <a href="#" class="social-icon si-rounded si-colored si-small si-facebook" title="Facebook">
@@ -755,16 +757,16 @@
                                                         <i class="icon-gplus"></i>
                                                         <i class="icon-gplus"></i>
                                                     </a> -->
-                                                    <!-- <a href="https://www.instagram.com/jbraidsandbows" class="social-icon si-rounded si-colored si-small si-instagram" title="instagram">
-                                                        <i class="icon-instagram"></i>
-                                                        <i class="icon-instagram"></i> -->
+                                                    <a href="https://www.instagram.com/pullinslahair" class="social-icon si-rounded si-colored si-medium si-instagram" title="instagram">
+                                                        <i class="fab fa-instagram"></i>
+                                                        <!-- <i class="fas fa-instagram"></i> -->
                                                     </a>
                                                 </div>
-                                                <a href="mailto:THEBLACKFOXBARBERSHOP@OUTLOOK.com?Subject=Barber%20applicant" class="button button-large button-color nothidden">Send us a email</a>
+                                                <a href="https://www.styleseat.com/laurenpullins" class="button button-large button-color nothidden">Appointment</a>
                                             </div>
                                         </div>
                                         <div class="team-desc">
-                                            <div class="team-title"><h4>Looking to join the team?</h4><span>Barber/Stylist</span></div>
+                                            <div class="team-title"><h4>Lauren Pullins</h4><span>Barber</span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -870,12 +872,11 @@
 				============================================= -->
 				<div class="footer-widgets-wrap center clearfix">
 
-					<img src="images/slider-logo.svg" width="200" alt="">
+					<img src="images/slider-logo1.svg" width="200" alt="">
 
 					<div class="topmargin-lg clearfix">
-						<a href="https://www.facebook.com/theblackfoxbarbershop" class="social-icon si-small si-rounded si-borderless inline-block si-facebook">
-							<i class="icon-facebook"></i>
-							<i class="icon-facebook"></i>
+						<a href="https://www.facebook.com/theblackfoxbarbershop" class="social-icon si-medium si-rounded si-borderless inline-block si-facebook">
+							<i class="fab fa-facebook"></i>
 						</a>
 
 						<!-- <a href="#" class="social-icon si-small si-rounded si-borderless inline-block si-twitter">
@@ -893,18 +894,16 @@
 							<i class="icon-pinterest"></i>
 						</a> -->
 
-						<a href="https://www.instagram.com/theblackfoxbarbershop" class="social-icon si-small si-rounded si-borderless inline-block si-instagram">
-							<i class="icon-instagram"></i>
-							<i class="icon-instagram"></i>
+						<a href="https://www.instagram.com/theblackfoxbarbershop" class="social-icon si-medium si-rounded si-borderless inline-block si-instagram">
+							<i class="fab fa-instagram"></i>
 						</a>
 
-						<a href="mailto:THEBLACKFOXBARBERSHOP@OUTLOOK.com?Subject=Barber%20applicant" class="social-icon si-small si-rounded si-borderless inline-block si-email3">
-							<i class="icon-email3"></i>
-							<i class="icon-email3"></i>
+						<a href="mailto:THEBLACKFOXBARBERSHOP@OUTLOOK.com?Subject=Barber%20applicant" class="social-icon si-medium si-rounded si-borderless inline-block si-email3">
+							<i class="far fa-envelope"></i>
 						</a>
 					</div>
 
-					<div class="uppercase ls3" style="color: #333; margin-top: 10px">&copy; The BlackFox Barbershop. 2018. All Rights Reserved.</div>
+					<div class="uppercase ls3" style="color: #333; margin-top: 10px">&copy; The Black Fox Barbershop. 2018. All Rights Reserved.</div>
 
 				</div>
 
@@ -916,7 +915,7 @@
 
 	<!-- Go To Top
 	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
+	<div id="gotoTop" class="fa fa-angle-up"></div>
 
 	<!-- External JavaScripts
 	============================================= -->
